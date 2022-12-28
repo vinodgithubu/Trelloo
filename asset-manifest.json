@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Trelloo/static/css/main.a559ac2f.css",
+    "main.js": "/Trelloo/static/js/main.af1d0e49.js",
+    "static/js/787.fd58a29f.chunk.js": "/Trelloo/static/js/787.fd58a29f.chunk.js",
+    "index.html": "/Trelloo/index.html",
+    "main.a559ac2f.css.map": "/Trelloo/static/css/main.a559ac2f.css.map",
+    "main.af1d0e49.js.map": "/Trelloo/static/js/main.af1d0e49.js.map",
+    "787.fd58a29f.chunk.js.map": "/Trelloo/static/js/787.fd58a29f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a559ac2f.css",
+    "static/js/main.af1d0e49.js"
+  ]
+}
