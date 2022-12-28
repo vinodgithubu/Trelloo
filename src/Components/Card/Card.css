@@ -1,0 +1,42 @@
+.Card {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Card-top {
+    display: flex;
+    gap: 5px;
+}
+.Card-labels {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+.Card-title {
+    font-weight: bold;
+}
+.Card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card-bottom p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.Card-bottom svg{
+    width: 14px;
+    height: 14px;
+}
+.Card-top svg {
+    opacity: 0;
+    transition: 200ms;
+}
+.Card:hover .Card-top svg{
+    opacity: 1;
+}

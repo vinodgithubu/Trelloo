@@ -1,0 +1,48 @@
+.EditableCard {
+    width: 100%;
+
+}
+.EditableCard-display {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.EditableCard-display:hover {
+    background-color: #c3c3c3;
+}
+.EditableCard-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.EditableCard-edit input {
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #576fea;
+    padding: 10px;
+    font-size: 16px;
+}
+.EditableCard-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.EditableCard-footer button {
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #576fea;
+    transition: 200ms;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.EditableCard-footer button:hover {
+    background-color: #2f4eec;
+}
+.EditableCard-footer svg {
+    cursor: pointer;
+}
